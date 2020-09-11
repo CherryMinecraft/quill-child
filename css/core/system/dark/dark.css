@@ -120,7 +120,7 @@ input {
 	position: absolute;
 	top: 0;
 	left: 0;
-	background: url(/imgs/core/dark/dark.png) no-repeat;
+	background: url(https://core-cdn.cherryminecraft.com/imgs/core/dark/dark.webp) no-repeat;
 	background-position: center;
 	background-attachment: fixed;
 	width: 100%;

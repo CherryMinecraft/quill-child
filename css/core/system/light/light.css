@@ -133,7 +133,7 @@ input {
 	position: absolute;
 	top: 0;
 	left: 0;
-	background: url(/imgs/core/light/light.png) no-repeat;
+	background: url(https://core-cdn.cherryminecraft.com/imgs/core/light/light.webp) no-repeat;
 	background-position: center;
 	background-attachment: fixed;
 	width: 100%;
