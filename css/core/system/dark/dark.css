@@ -111,13 +111,16 @@ input {
 	border-top: 1px solid #383838;
 }
 
+/** Page or Post Title  */
+
+/* Front Page */
 .has-banner:after {
 	content : "";
 	display: block;
 	position: absolute;
 	top: 0;
 	left: 0;
-	background: url(/imgs/core/light/light.png) no-repeat;
+	background: url(/imgs/core/dark/dark.png) no-repeat;
 	background-position: center;
 	background-attachment: fixed;
 	width: 100%;
