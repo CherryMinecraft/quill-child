@@ -31,8 +31,8 @@
 <?php endif; ?>
 
 <?php wp_head(); ?>
-<link rel="stylesheet" href="/css/core/system/dark/dark.css" media="(prefers-color-scheme: dark)">
-<link rel="stylesheet" href="/css/core/system/light/light.css" media="(prefers-color-scheme: light)">
+<link rel="stylesheet" href="https://core-cdn.cherryminecraft.com/css/core/system/dark/dark.min.css" media="(prefers-color-scheme: dark)">
+<link rel="stylesheet" href="https://core-cdn.cherryminecraft.com/css/core/system/light/light.min.css" media="(prefers-color-scheme: light)">
 </head>
 
 <body <?php body_class(); ?>>
@@ -68,9 +68,6 @@
 				<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
 			<?php endif; ?>
 		</div>
-	<!-- Custom CherryMC Color Mods -->
-	<link rel='stylesheet' href='/css/core/system/style.css' type='text/css' media='all' />
-	<!-- END CherryMC Color Mods -->
 	</header><!-- #masthead -->
 
 	<?php if (!is_page_template('page_front-page.php') || ( 'posts' == get_option( 'show_on_front' ) ) ) : ?>
