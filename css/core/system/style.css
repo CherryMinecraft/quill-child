@@ -1,0 +1,6 @@
+@media (prefers-color-scheme: light)	{
+	@import url("/css/core/system/light.css");
+}
+@media (prefers-color-scheme: dark)	{
+	@import url("/css/core/system/dark.css");
+}

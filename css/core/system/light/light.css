@@ -1,30 +1,30 @@
 body {
-	color: #fff;
-	background-color: #121212;
+	color: #000;
+	background-color: #FFF;
 }
 /* Header Titles */
 .entry-title,
 .entry-title a {
-	color: #fff;
+	color: #000;
 }
 .title-banner {
-	background-color: #121212;
+	background-color: #FFF;
 	padding: 30px 15px;
 	text-transform: uppercase;
 }
 .site-header {
 	position: relative;
 	overflow: hidden;
-	background-color: #121212;
+	background-color: #FFF;
 }
 .site-title a {
-    color: #fff;
+    color: #000;
     text-decoration: none;
     text-shadow: 0 5px 5px #000;
 }
 .site-description {
     font-size: 20px;
-    color: #fff;
+    color: #000;
 }
 a:hover,
 a:focus {
@@ -40,7 +40,7 @@ a:focus {
     position: relative;
     padding: 10px;
     font-size: 18px;
-    border: 2px solid #fff;
+    border: 2px solid #000;
     margin-right: 10px;
     text-transform: uppercase;
     -webkit-transition: all 0.3s;
@@ -49,38 +49,38 @@ a:focus {
 /** Mobile Menu Buger */
 /** CherryMC */
 .menu-toggle {
-	background-color: #121212;
+	background-color: #FFF;
 }
 
 /* Comment Text Bodies */
 /* CherryMC */
 .comments-area a.url {
-	color: #fff;
+	color: #000;
 	text-decoration: underline;
 }
 .comment-body {
 	padding: 15px;
 	margin-bottom: 20px;
-	border-bottom: 1px solid #121212;
-	background-color: #121212;
+	border-bottom: 1px solid #FFF;
+	background-color: #FFF;
 }
 .comment-form-author:before,
 .comment-form-email:before,
 .comment-form-url:before,
 .comment-form-comment:before {
 	font-family: FontAwesome;
-	color: #fff;
+	color: #000;
 }
 
 /* Text Input Boxes */
 /* CherryMC */
 textarea {
-	color: #fff;
-	background-color: #383838;
+	color: #000;
+	background-color: #fff;
 }
 input {
-	color: #fff;
-	background-color: #383838;
+	color: #000;
+	background-color: #fff;
 }
 
 /* Widgets */
@@ -88,11 +88,11 @@ input {
 .widgettitle {
 	margin: 0 0 15px;
 	padding-bottom: 15px;
-	border-bottom: 2px solid #FFF;
+	border-bottom: 2px solid #000;
 }
 .widget,
 .widget a {
-	color: #FFF;
+	color: #000;
 }
 .widget .post-title {
 	color: #e42537;
@@ -101,12 +101,43 @@ input {
 .widgettitle {
 	margin: 0 0 15px;
 	padding-bottom: 15px;
-	border-bottom: 2px solid #383838;
+	border-bottom: 2px solid #000;
 }
 
 /* Footer */
 .site-footer {
-	background-color: #121212;
+	background-color: #FFF;
 	padding: 30px;
-	border-top: 1px solid #383838;
+	border-top: 1px solid #000;
+}
+
+/** Page or Post Title  */
+.title-banner h1 {
+	color: #000;
+	margin: 0;
+}
+
+/* Front Page */
+/** Header Overlay */
+.header-overlay {
+	background-color: #fff;
+	opacity: 0.7;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+.has-banner:after {
+	content : "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url(/imgs/core/light/light.png) no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	width: 100%;
+	height: 100%;
+	opacity : 0.4;
+	z-index: -1;
 }
