@@ -1,27 +1,29 @@
 /*
-Theme Name: CherryMC
-Theme URI: #
-Author: aThemes & DavidCarbon
-Author URI: https://davidcarbon.dev/
-Description: This theme is a development design base
-Version: 1.13.1
-Text Domain: cherrymc
+Theme Name: Quill
+Theme URI: https://athemes.com/theme/quill
+Author: aThemes
+Author URI: https://athemes.com/
+Description: Quill is designed with law firms in mind. Use it to create a great online presence for your firm and show your potential clients what you're all about by using the many available front page blocks. You can brag with your latest cases, show off your most valuable employees, present facts about your firm and much more. Also, Quill provides a high level of customization options.
+Version: 1.13
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: quill
+Domain Path: /languages/
+Tags: two-columns, three-columns, right-sidebar, custom-colors, custom-background, custom-header, custom-menu, featured-images, sticky-post, theme-options, threaded-comments, translation-ready
 
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 
- CherryMC is based on Underscores http://underscores.me/, (C) 2012-2014 Automattic, Inc.
+ Quill is based on Underscores http://underscores.me/, (C) 2012-2014 Automattic, Inc.
 
 --------------------------------------------------------------*/
 
 
 body {
 	font-family: 'Open Sans', sans-serif;
-	color: #121212;
+	color: #6B6B6B;
 	word-break: break-word;
-	-webkit-font-smoothing: antialiased;
+	-webkit-font-smoothing: antialiased;	
 }
 h1,
 h2,
@@ -30,7 +32,7 @@ h4,
 h5,
 h6 {
 	font-family: 'Open Sans Condensed', sans-serif;
-	color: #FFF;
+	color: #2E2E2E;
 	font-weight: 400;
 }
 #page {
@@ -161,7 +163,7 @@ Menus
 }
 
 .main-navigation li:hover > a {
-		color: #FFF;
+		color: #2E2E2E;
 }
 .main-navigation ul ul :hover > a {
 }
@@ -194,7 +196,7 @@ Menus
 	max-width: 50%;
 }
 .buttons a {
-	color: #FFF;
+	color: #2E2E2E;
 }
 .buttons:hover a {
 	color: #fff;
@@ -210,7 +212,7 @@ Menus
 /* Small menu */
 .menu-toggle {
 	display: none;
-	background-color: #121212;
+	background-color: #2e2e2e;
 	color: #fff;
 	margin: 30px 0 30px 30px;
 	border-color: #000;
@@ -287,7 +289,7 @@ Widgets
 .widgettitle {
 	margin: 0 0 15px;
 	padding-bottom: 15px;
-	border-bottom: 2px solid #FFF;
+	border-bottom: 2px solid #2E2E2E;
 }
 .widget ul {
 	list-style: none;
@@ -314,23 +316,23 @@ Widgets
 	display: none;
 }
 /* Custom widgets */
-.cherrymc_recent_posts_widget h4 {
+.quill_recent_posts_widget h4 {
 	margin: 0 0 5px 0;
 }
-.cherrymc_recent_posts_widget h4 a,
+.quill_recent_posts_widget h4 a,
 .widget .post-title {
 	color: #858585;
 }
-.cherrymc_recent_posts_widget li:before,
-.cherrymc_recent_comments li:before {
+.quill_recent_posts_widget li:before,
+.quill_recent_comments li:before {
 	content: "";
 	margin: 0;
 }
-.cherrymc_recent_comments .avatar {
+.quill_recent_comments .avatar {
 	float: left;
 	margin-right: 15px;
 }
-.cherrymc_recent_comments a.post-title {
+.quill_recent_comments a.post-title {
 	font-weight: 600;
 }
 .widget .list-group {
@@ -353,16 +355,16 @@ Widgets
 	font-size: 13px;
 	color: #C8C8C8;
 }
-.cherrymc_recent_comments .col-md-8,
-.cherrymc_recent_posts_widget .col-md-8 {
+.quill_recent_comments .col-md-8,
+.quill_recent_posts_widget .col-md-8 {
 	padding: 0;
 }
-.cherrymc_recent_comments .col-md-4,
-.cherrymc_recent_posts_widget .col-md-4 {
+.quill_recent_comments .col-md-4,
+.quill_recent_posts_widget .col-md-4 {
 	padding: 0 15px 0 0;
 }
-.cherrymc_recent_comments .list-group-item,
-.cherrymc_recent_posts_widget .list-group-item {
+.quill_recent_comments .list-group-item,
+.quill_recent_posts_widget .list-group-item {
 	padding: 10px 0;
 }
 .recent-thumb {
@@ -393,11 +395,11 @@ Widgets
 }
 /*Footer*/
 .footer-widget-area {
-	background-color: #121212;
+	background-color: #2e2e2e;
 	padding: 60px 30px 30px;
 }
 .site-footer {
-	background-color: #121212;
+	background-color: #2e2e2e;
 	padding: 30px;
 	border-top: 1px solid #383838;
 }
@@ -434,7 +436,7 @@ Posts and pages
 }
 .blog .hentry,
 .archive .hentry {
-	border-bottom: 2px solid #121212;
+	border-bottom: 2px solid #2e2e2e;
 	padding-bottom: 30px;
 }
 .entry-header {
@@ -461,7 +463,7 @@ Posts and pages
 }
 .entry-title,
 .entry-title a {
-	color: #121212;
+	color: #2e2e2e;
 }
 .entry-meta,
 .entry-meta a,
@@ -486,7 +488,7 @@ Posts and pages
 .employee-bio,
 .case-info {
 	text-align: center;
-	background-color: #121212;
+	background-color: #2e2e2e;
 }
 .employee-bio span,
 .case-info span {
@@ -553,7 +555,7 @@ Comments
 .comment-body {
 	padding: 15px;
 	margin-bottom: 20px;
-	border-bottom: 1px solid #121212;
+	border-bottom: 1px solid #2e2e2e;
 	background-color: #fff;
 }
 .reply {
@@ -562,7 +564,7 @@ Comments
 .comment-reply-link {
 	padding: 5px;
 	background-color: #fff;
-	border: 1px solid #121212;
+	border: 1px solid #2e2e2e;
 	font-size: 12px;
 	-webkit-transition: all 0.4s;
 	transition: all 0.4s;	
@@ -592,7 +594,7 @@ textarea#comment {
 	width: 100%;
 	max-width: 100%;
 	padding: 10px;
-	border: 1px solid #121212;
+	border: 1px solid #2e2e2e;
 }
 .comment-respond input[type="submit"] {
 	background-color: transparent;
@@ -732,7 +734,7 @@ Structure
 .site-header {
 	position: relative;
 	overflow: hidden;
-	background-color: #121212;
+	background-color: #2e2e2e;
 }
 .logo-image {
 	max-width: 200px;
@@ -794,10 +796,10 @@ Structure
 /* Page builder */
 .panel-grid {
 	margin: 0 !important;
-	border-bottom: 2px solid #121212;
+	border-bottom: 2px solid #2e2e2e;
 }
 .panel-grid:first-of-type {
-	border-top: 30px solid #121212;
+	border-top: 30px solid #2e2e2e;
 }
 .panel-grid-cell {
 	padding: 0 !important;
@@ -851,12 +853,12 @@ Front page blocks
 .panel-grid-cell .widget-title {
 	display: table;
 	padding: 15px;
-	border: 2px solid #FFF;
+	border: 2px solid #2E2E2E;
 	margin-top: -2px;
 	font-weight: 400;
 }
 .section-desc {
-	border-bottom: 1px solid #121212;
+	border-bottom: 1px solid #2e2e2e;
 	padding-bottom: 15px;
 	margin-bottom: 60px;
 	font-style: italic;
@@ -876,8 +878,8 @@ Front page blocks
 	line-height: 1;
 	padding: 10px;
 	width: 50px;
-	color: #FFF;
-	border: 2px solid #FFF;	
+	color: #2E2E2E;
+	border: 2px solid #2E2E2E;	
 	text-align: center;
 	margin-right: 15px;
 }
@@ -889,10 +891,10 @@ Front page blocks
 .buttons,
 .wpcf7-submit,
 .comment-respond input[type="submit"] {
-	border: 2px solid #FFF;
+	border: 2px solid #2E2E2E;
 	font-size: 20px;
 	padding: 15px;
-	color: #FFF;
+	color: #2E2E2E;
 	text-transform: uppercase;
 	font-family: 'Open Sans Condensed', sans-serif;
 	-webkit-transition: all 0.3s;
@@ -914,13 +916,13 @@ Front page blocks
 .buttons:hover,
 .wpcf7-submit:hover,
 .comment-respond input[type="submit"]:hover {
-	background-color: #FFF;
+	background-color: #2E2E2E;
 	color: #fff;
 	text-decoration: none;
 }
 .service-desc:first-letter { 
 	float: left; 
-	color: #FFF; 
+	color: #2E2E2E; 
 	font-size: 50px; 
 	line-height: 65px; 
 	padding-top: 5px; 
@@ -936,7 +938,7 @@ Front page blocks
 	padding: 0 15px;
 	color: #fff;
 	display: block;
-	background-color: #FFF;
+	background-color: #2E2E2E;
 }
 .facts-area .col-md-3:first-of-type {
 	padding-left: 0;
@@ -948,8 +950,8 @@ Front page blocks
 	font-size: 20px;
 	display: block;
 	margin-top: 15px;
-	color: #FFF;
-	border: 2px solid #121212;
+	color: #2E2E2E;
+	border: 2px solid #2e2e2e;
 	padding: 10px 0;
 	font-weight: 700;
 }
@@ -957,7 +959,7 @@ Front page blocks
 .wpcf7-form-control-wrap input,
 .wpcf7-form-control-wrap textarea {
 	background-color: transparent;
-	border: 2px solid #FFF;
+	border: 2px solid #2E2E2E;
 	padding: 15px;
 	width: 100%;
 }
@@ -969,7 +971,7 @@ Front page blocks
 	display: inline-block;
 	margin-right: 30px;
 	padding: 15px;
-	background-color: #FFF;
+	background-color: #2E2E2E;
 	color: #fff;
 }
 .contact-info a {
@@ -1005,7 +1007,7 @@ Front page blocks
 	display: block;
 }
 .employee-social .fa {
-	color: #121212;
+	color: #2e2e2e;
 	color: #fff;
 	font-size: 20px;
 }
@@ -1018,14 +1020,14 @@ Front page blocks
 .employee-name,
 .employee-position,
 .employee-social {
-	background-color: #121212;
+	background-color: #2e2e2e;
 	color: #fff;
 	border-bottom: 1px solid #383838;
 }
 .employee .read-more {
 	display: block;
 	margin: 0;
-	background-color: #121212;
+	background-color: #2e2e2e;
 	color: #fff;
 	border: 0;
 }
@@ -1033,7 +1035,7 @@ Front page blocks
 /* Testimonials */
 .testimonial-body {
 	font-style: italic;
-	border-bottom: 1px solid #121212;
+	border-bottom: 1px solid #2e2e2e;
 }
 .flex-container a:active,
 .flexslider a:active,
@@ -1068,8 +1070,8 @@ html[xmlns] .slides {display: block;}
 	margin: 0 0 30px;
 	text-align: center;
 	padding: 30px;
-	border: 1px solid #121212;
-	background-color: #121212;
+	border: 1px solid #2e2e2e;
+	background-color: #2e2e2e;
 }
 .cases-area .entry-title a {
 	color: #fff;
@@ -1095,7 +1097,7 @@ html[xmlns] .slides {display: block;}
 	display: block;
 	margin: 0 auto;
 	padding: 19px;
-	border: 2px solid #121212;
+	border: 2px solid #2e2e2e;
 	float: left;
 	background-color: transparent;
 }
@@ -1166,7 +1168,7 @@ Slider
 }
 .header-button:hover {
 	background-color: #fff;
-	color: #FFF;
+	color: #2E2E2E;
 	text-decoration: none;	
 }
 .header-button:hover > a {
@@ -1211,7 +1213,7 @@ Slider
 .social-widget li a::before,
 .social-area a:before {
 	font-family: FontAwesome;
-	color: #121212;
+	color: #2e2e2e;
 	-webkit-transition: all 0.3s;
 	transition: all 0.3s;
 }
@@ -1400,7 +1402,7 @@ Responsive
 		border: 0;
 	}
 	.panel-grid-cell {
-		border-bottom: 2px solid #121212;
+		border-bottom: 2px solid #2e2e2e;
 		margin-bottom: 0 !important;
 	}
 }
